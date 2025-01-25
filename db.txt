@@ -1,0 +1,15 @@
+gymId
+gymName
+ownerName
+address
+contactNumber
+
+
+CREATE DATABASE gymHub;
+
+CREATE TABLE pricing ( 
+gymId INT PRIMARY KEY , 
+gymName VARCHAR(100), 
+ownerName VARCHAR(100), 
+address VARCHAR(255), 
+contactNumber VARCHAR(20) );
